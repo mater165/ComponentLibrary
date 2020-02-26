@@ -1,6 +1,6 @@
 {
   "name": "materi-components",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "My components",
   "author": "mater165",
   "license": "MIT",
@@ -23,15 +23,18 @@
   },
   "dependencies": {},
   "peerDependencies": {
+    "@types/styled-components": "^5.0.0",
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "@svgr/rollup": "^2.4.1",
     "@types/jest": "^23.1.5",
     "@types/react": "^16.3.13",
     "@types/react-dom": "^16.0.5",
+    "@types/styled-components": "^5.0.0",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
     "cross-env": "^5.1.4",
@@ -47,6 +50,7 @@
     "rollup-plugin-postcss": "^1.6.2",
     "rollup-plugin-typescript2": "^0.17.0",
     "rollup-plugin-url": "^1.4.0",
+    "styled-components": "^5.0.1",
     "typescript": "^2.8.3"
   },
   "files": [
